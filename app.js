@@ -49,5 +49,8 @@ app.get('/lab11', function (request,responce) {
 app.get('/lab12', function (request,responce) {
     responce.sendFile(path.join(__dirname, 'static/WebJS12.html'))
 })
+app.get('/', function (request,responce) {
+    responce.sendFile(path.join(__dirname, 'static/WebJS1.html'))
+})
 app.listen(port)
 
