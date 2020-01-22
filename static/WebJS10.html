@@ -9,7 +9,7 @@
 				for (i=0; i <= s.length-1; i += 1){
 					c=s.charAt(i)
 					cur +=c+"\r\n"
-				}
+				}	
 				sres+=cur
 				return sres
 			}
@@ -33,6 +33,7 @@
 			}
 			function word_count(obj){
 				obj.result.value = obj.textin.value.split(" ").length
+				
 			}
 			function word_change(obj){
 				arr = obj.textin.value.split(" ")
